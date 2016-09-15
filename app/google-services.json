@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "930801631538",
+    "firebase_url": "https://sdh-manchar-8ba8d.firebaseio.com",
+    "project_id": "sdh-manchar-8ba8d",
+    "storage_bucket": "sdh-manchar-8ba8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930801631538:android:79117c19e8f69d25",
+        "android_client_info": {
+          "package_name": "com.virupawadegmail.sdhmancharpune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930801631538-qleh7pcd08iuq3m5ekpef77ds69g2cg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgq5AErIyqkQXvC07_P3NFgo-GCqun0BI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
