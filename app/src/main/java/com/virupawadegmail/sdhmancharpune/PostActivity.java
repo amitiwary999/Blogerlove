@@ -1,10 +1,14 @@
 package com.virupawadegmail.sdhmancharpune;
 
 import android.app.ProgressDialog;
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -57,8 +61,9 @@ public class PostActivity extends AppCompatActivity {
             mSelectImage.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);
+                    Intent galleryIntent = new Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                     galleryIntent.setType("image/*");
+                    galleryIntent.setAction(Intent.ACTION_GET_CONTENT);
                     startActivityForResult(galleryIntent, GALLERY_REQUEST);
 
                 }
@@ -115,6 +120,11 @@ public class PostActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == GALLERY_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null) {
+            if (ContextCompat.checkSelfPermission(PostActivity.this,Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(PostActivity.this,
+                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},12345);
+                return;
+            }
 
             Uri uri = data.getData();
 

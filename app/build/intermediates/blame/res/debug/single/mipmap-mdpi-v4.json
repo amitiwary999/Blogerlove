@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_image_add.png",
+        "source": "/home/amit/SDH_Manchar/app/src/main/res/mipmap-mdpi/ic_image_add.png"
+    },
+    {
+        "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/amit/SDH_Manchar/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]
