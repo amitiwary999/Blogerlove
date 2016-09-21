@@ -36,16 +36,16 @@ public class PostActivity extends AppCompatActivity {
     private Uri mImageUri = null;
     private StorageReference mStorage;
     private DatabaseReference mDatabase;
-
-
+  EditText titlefield,mDesc;
+      Blog bl;
     private static final int GALLERY_REQUEST = 1;
 
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activitypost);
 
-            EditText titleField = (EditText) findViewById(R.id.titleField);
-            EditText mdesc = (EditText) findViewById(R.id.mdesc);
+             titlefield = (EditText) findViewById(R.id.titleField);
+             mDesc = (EditText) findViewById(R.id.mdesc);
             Button buttondone = (Button) findViewById(R.id.buttondone);
             mDatabase=FirebaseDatabase.getInstance().getReference().child("Blog");
           ImageButton mSelectImage=(ImageButton) findViewById(R.id.mSelectImage);
@@ -78,9 +78,11 @@ public class PostActivity extends AppCompatActivity {
 
     private void startPosting() {
         mProgress.setMessage("Posting to Blog....");
+        mProgress.show();
 
-         final String title_val = titleField.getText().toString().trim();
-         final String desc_val = mdesc.getText().toString().trim();
+         final String title_val = titlefield.getText().toString().trim();
+         final String desc_val = mDesc.getText().toString().trim();
+        // bl=new Blog(title_val,desc_val,mImageUri.toString());
         if (!TextUtils.isEmpty(title_val) && !TextUtils.isEmpty(desc_val) && mImageUri != null){
             StorageReference filepath = mStorage.child("Blog_Images").child(mImageUri.getLastPathSegment());
             filepath.putFile(mImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
@@ -105,16 +107,6 @@ public class PostActivity extends AppCompatActivity {
         }
         }
 
-
-
-
-
-
-
-
-
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -126,10 +118,10 @@ public class PostActivity extends AppCompatActivity {
                 return;
             }
 
-            Uri uri = data.getData();
+            mImageUri = data.getData();
 
             try {
-                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), mImageUri);
 
                 ImageView imageView = (ImageView) findViewById(R.id.mSelectImage);
                 imageView.setImageBitmap(bitmap);

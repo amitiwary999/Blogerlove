@@ -52,6 +52,7 @@ private RecyclerView mBlogList;
         ) {
             @Override
             protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
+              //  model=new Blog();
                 viewHolder.setTitle(model.getTitle());
                 viewHolder.setDesc(model.getDesc());
                 viewHolder.setImage(getApplicationContext(),model.getImage());
