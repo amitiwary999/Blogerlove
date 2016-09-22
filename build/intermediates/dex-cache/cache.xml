@@ -1,2 +1,355 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c8efc3ad9b609bb14592c5d53f67d492f6b06482">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2909eb5ffe877476368e676e8831e75035bbb9a1/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_ab716ea3ff0e149727cbad6e448f5b49b58e1265/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_389760aa7b8f3efc136d9c7b0f64e965fd6c7b1a/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_08a1e05ac440900242903c01178ee72cde40b708/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/0.5.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4d1eef77feb4f5eb598bc3eed8b55c93f04f08e5">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-auth-0.5.3_627fdf0decdc1f0923ca1c70509e9d4a4f030b16/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_59f681689827b244dc67ccdf35883c6e578dc0b7/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_aa5e86424a907870aec226918099ca7be984b413/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_bdf8e1440c497ae850778cb6e192ce21a04c1e0e/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.14.1_a4d79adbc154e6870e9e7b809adc6f1518a280be/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_2b4daff43fae2df5c9486a1c6b55839a87b97207/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_bef81f2e77dcbdf2bc0e646b6cc79de6f4dc8171/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.5.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d729037ff4a83220d1f706356ff0dbe4b85e0d73">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.5.3_d354d8101b53770540dc94ceb0e6fcbbaf498179/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_9e6361990b79ec2facc27c74868d607421bf9595/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1aeca706565929fa170d98aa99a76ba06c509ca6">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9a9f28fdbc12816269fc3e8aa80e145d4c3f5af9/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_81e24307b6c18aed37ca35f81dd512a6e11b988e/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_f6212bc128b78768e7e526d3958d66a2c77a30ba/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c7e39e14e231f375155c634bd1a5da066f9c61ea/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_5d8f63b4c49c205d15e0816eeca6a72f963f8780/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_07f491e428de530cfc8f1d98599ab98697be1409/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_9a0a7ace359af46f55f8c29338152aafe554a982/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_51c18a5243768655b18bbc890fd60f2f535af437/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_4d64e8bb0289d42601e134db093413a641714325/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.11_36e50257708682e67a427d18d5f62d3ac351f036/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_fef2c42721defb130fc45929e8947e128e7c2af2/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_66d395f3d829be55196be83ff1a326edf2c46435/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_3c2ec45fe3b290360df910f73fb9587305e3099a/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_ab996a24002a2c0d22ccb32dcd4dbb68f24a748f/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_0378ea8c724e79f4ee7c2c9cd60cd0a6f361f21a/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_2de9f51bb9893dd8862ce266b40d9513550bbdb3/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_c000a60befb0a6eab800fafd6074dabc3953765a/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_e50a6d71779d75e468f2a27fd604e1e4bdd06054/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.5.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbed8999711c2ea4a32aebfb9541e9873b5a83ca">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-0.5.3_b4c0c2c277e98778e62ae862892336f5ad0d4fbe/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_e506b49bd09f64b6dd3a6d74df7dce577cd22320/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_e981ec582627ac77a5b6a3ffda34ed0bfc85c258/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5cfc9ef9faac5f82ec7cd6d036661557cbb1aba1/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_f2dbe64e16f58b50f3fd1d3eab4cea67640c3809/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6cd62743aaee0e25b2228f6ec12cc52017df99ff/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_47b9c8119b95d2dfcafb0a8a53aeed24abf65f2f/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_f8a6087299c3d9056f41ec25000838f1894ccb35/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_726bab78f0ad0fdb309e34a5f2c37c585b102207/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_50823b82734c8947d8a0780759871479baf57840/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_0cfadf6f12915a7b3175119c0194a5059d4dc397/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.4.0_c10437f60e735695b06c24ac2d73e17e62456d7e/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_9f2e0668f12a71a680bff034f656db947cdfccc9/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.3.1_aa90cd5823ea794cb8c368e1d9076c828ff390e6/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.3.1_61363afa43844df94bfc2769e55f122fd89d9535/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_8d680f7ad5c8b3cd4daccd7ba33e0a9f602eaec0/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bce7619919b285901da6294bf4db541fab6221f8/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_4cff608dc7d1c917ed4012a7486e3f006634de07/classes.dex" />
+    </item>
+    <item
+        jar="/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8b2c35848c45b6cc4c717ad7500b16bb0aba283f/classes.dex" />
+    </item>
+
+</items>

@@ -28,16 +28,11 @@ import com.google.firebase.storage.UploadTask;
 import java.io.IOException;
 
 public class PostActivity extends AppCompatActivity {
-    private ImageButton mSelectImage;
-    private EditText titleField;
-    private EditText mdesc;
-    private Button buttondone;
     private ProgressDialog mProgress;
     private Uri mImageUri = null;
     private StorageReference mStorage;
     private DatabaseReference mDatabase;
   EditText titlefield,mDesc;
-      Blog bl;
     private static final int GALLERY_REQUEST = 1;
 
         protected void onCreate(Bundle savedInstanceState) {
@@ -49,15 +44,8 @@ public class PostActivity extends AppCompatActivity {
             Button buttondone = (Button) findViewById(R.id.buttondone);
             mDatabase=FirebaseDatabase.getInstance().getReference().child("Blog");
           ImageButton mSelectImage=(ImageButton) findViewById(R.id.mSelectImage);
-
-
-
-
            mStorage = FirebaseStorage.getInstance().getReference();
             mProgress = new ProgressDialog(this);
-
-
-
             mSelectImage.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -90,17 +78,11 @@ public class PostActivity extends AppCompatActivity {
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
                     DatabaseReference newPost=mDatabase.push();
-
-
                     newPost.child("title").setValue(title_val);
                     newPost.child("desc").setValue(desc_val);
                     newPost.child("image").setValue(downloadUrl.toString());
-
-
                     mProgress.dismiss();
                     startActivity(new Intent(PostActivity.this,MainActivity.class));
-
-
                 }
             });
 

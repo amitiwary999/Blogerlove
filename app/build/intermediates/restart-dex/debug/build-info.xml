@@ -4,35 +4,35 @@
     api-level="21"
     density="xhdpi"
     format="7"
-    timestamp="4941825488102"
+    timestamp="1917498695634"
     token="-5896810903587613271" >
 
     <task
         name="javac"
-        duration="2466" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="203" />
+        duration="0" />
     <task
         name="verifier"
-        duration="87" />
+        duration="0" />
 
     <artifact
-        location="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-        type="DEX" />
+        location="/home/amit/SDH_Manchar/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="4464108519003" >
+    <build timestamp="1422881826371" >
         <artifact
             location="/home/amit/SDH_Manchar/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="4941825488102" >
+    <build timestamp="1917498695634" >
         <artifact
-            location="/home/amit/SDH_Manchar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-            type="DEX" />
+            location="/home/amit/SDH_Manchar/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
