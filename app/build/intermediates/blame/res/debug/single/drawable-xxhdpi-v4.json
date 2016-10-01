@@ -384,10 +384,6 @@
         "source": "/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_add_black_24dp.png",
-        "source": "/home/amit/SDH_Manchar/app/src/main/res/drawable-xxhdpi/ic_add_black_24dp.png"
-    },
-    {
         "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },

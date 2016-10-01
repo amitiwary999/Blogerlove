@@ -172,10 +172,6 @@
         "source": "/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_add_black_24dp.png",
-        "source": "/home/amit/SDH_Manchar/app/src/main/res/drawable-mdpi/ic_add_black_24dp.png"
-    },
-    {
         "merged": "/home/amit/SDH_Manchar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_button_send_icon_white.png",
         "source": "/home/amit/SDH_Manchar/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-mdpi-v4/com_facebook_button_send_icon_white.png"
     },

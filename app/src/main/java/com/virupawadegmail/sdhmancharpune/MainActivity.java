@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
@@ -22,11 +23,14 @@ import com.squareup.picasso.Picasso;
 public class MainActivity extends AppCompatActivity {
 private RecyclerView mBlogList;
     private DatabaseReference mDatabase;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+       // auth = FirebaseAuth.getInstance();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        auth=FirebaseAuth.getInstance();
         mDatabase=FirebaseDatabase.getInstance().getReference().child("Blog");
         mBlogList=(RecyclerView)findViewById(R.id.mblog_list);
         mBlogList.setHasFixedSize(true);
@@ -43,24 +47,28 @@ private RecyclerView mBlogList;
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseRecyclerAdapter<Blog,BlogViewHolder>firebaseRecyclerAdapter=new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
-                Blog.class,
-                R.layout.blog_row,
-                BlogViewHolder.class,
-                mDatabase
+        if(auth.getCurrentUser()!=null) {
+            FirebaseRecyclerAdapter<Blog, BlogViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
+                    Blog.class,
+                    R.layout.blog_row,
+                    BlogViewHolder.class,
+                    mDatabase
 
-        ) {
-            @Override
-            protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
-              //  model=new Blog();
-                viewHolder.setTitle(model.getTitle());
-                viewHolder.setDesc(model.getDesc());
-                viewHolder.setImage(getApplicationContext(),model.getImage());
+            ) {
+                @Override
+                protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
+                    //  model=new Blog();
+                    viewHolder.setTitle(model.getTitle());
+                    viewHolder.setDesc(model.getDesc());
+                    viewHolder.setImage(getApplicationContext(), model.getImage());
 
 
-            }
-        };
-        mBlogList.setAdapter(firebaseRecyclerAdapter);
+                }
+            };
+            mBlogList.setAdapter(firebaseRecyclerAdapter);
+        }else{
+            loadLoginView();
+        }
     }
 
     public  static class BlogViewHolder extends RecyclerView.ViewHolder{
@@ -97,6 +105,12 @@ private RecyclerView mBlogList;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void loadLoginView() {
+        Intent intent = new Intent(this, Signup.class);
+        startActivity(intent);
+        finish();
     }
 
 }

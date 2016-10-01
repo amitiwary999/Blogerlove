@@ -3,7 +3,7 @@
     package="com.virupawadegmail.sdhmancharpune" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".PostActivity" />
+        <activity android:name=".Signup"></activity>
     </application>
 
 </manifest>
